@@ -27,8 +27,13 @@
   </div>
 
   <div class="field">
-    <%= form.label :image %>
+    <%= form.label :image %> (Thumbnail)
     <%= form.file_field :image %>
+  </div>
+
+  <div class="field">
+    <%= form.label :pictures %> (Can choose multiple images)
+    <%= form.file_field :pictures, multiple: true %>
   </div>
 
   <div class="actions">

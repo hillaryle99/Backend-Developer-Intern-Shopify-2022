@@ -20,6 +20,13 @@
   <%= @product.description %>
 </p>
 
+<p>
+  <% if @product.pictures.attached? %>
+      <% @product.pictures.each do |pic| %>
+        <%= image_tag pic, width:"100px" %>
+      <% end %>
+  <% end %>
+</p>
 
 
 <%= link_to 'Edit Item', edit_product_path(@product) %> |
