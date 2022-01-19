@@ -1,0 +1,13 @@
+<h1>Welcome back to your store!</h1>
+
+
+<div class="container">
+	<div class="center">
+		<%= image_tag ("store.png"), width:"400px" %>
+	</div>
+</div>
+
+<div class="center" style="font-size: 40px;">
+<%= link_to 'View Your Store', products_path, class: 'btn btn-xs btn-success' %>
+<%= link_to 'Add New Products', new_product_path, class: 'btn btn-xs btn-success' %>
+</div>

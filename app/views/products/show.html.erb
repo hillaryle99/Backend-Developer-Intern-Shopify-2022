@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <% if @product.image.attached? %>
+    <%= image_tag @product.image, width:"300px" %>
+  <% end %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @product.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @product.price %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+
+
+<%= link_to 'Edit Item', edit_product_path(@product) %> |
+<%= link_to 'Back to your store', products_path %>

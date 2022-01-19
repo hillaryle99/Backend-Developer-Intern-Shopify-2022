@@ -1,0 +1,104 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+       padding-top: 120px;
+       background-color: lightyellow;
+}
+
+.h{
+       text-align: left;
+       color: yellow;
+       font-family: papyrus;
+}
+
+.center {
+text-align: center;
+}
+.center h1 {
+margin-bottom: 10px;
+}
+
+.hhome {
+       padding-top: 30px;
+       padding-bottom: 30px;
+       text-align: center;
+       font-size: 30px;
+       font-weight: bolder;
+}
+
+.hcom{
+       padding-bottom: 30px;
+       padding-top: 30px;
+       padding-left: 40px;
+       text-weight: bolder;
+       text-size: 40px;
+}
+.phome{
+       text-align: center;
+}
+
+.hinfo{
+       padding-bottom: 30px;
+       padding-top: 30px;
+       padding-left: 40px;
+       text-weight: bolder;
+       text-size: 40px;
+}
+
+.hcom{
+       padding-bottom: 30px;
+       padding-top: 30px;
+       padding-left: 40px;
+       text-weight: bolder;
+       text-size: 40px;
+}
+
+.linfo{
+       padding-left: 60px;
+}
+
+.pinfo{
+       padding-left: 40px;
+}
+.title{color: yellow;}
+footer{border-top: 2px solid grey;
+       color: #777;
+       margin-top: 25px;
+}
+footer{
+       text-align: center;
+       padding: 3px;
+       font-family: papyrus;
+       font-size: 20px;
+}
+
+footer a:hover{color:purple;}
+footer ul{
+       list-style-type: none;
+}
+
+footer li{
+       display: inline;
+       padding-right: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-left: 100px;
+}
+
+th,td{
+       border: 1px solid black;
+       padding: 50px;
+       text-align: center;
+}
+
+
+.box1{
+       width: 200px;
+       height: 300px;
+       border: 1px solid black;
+       text-align: center;
+}
