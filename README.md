@@ -15,8 +15,8 @@ gem install rails
 rails -v
 5. Download NodeJs at: https://nodejs.org/en/download/
 Check if it is successful by entering line by line: 
-node -v
-npm -v 
+"node -v"
+"npm -v" 
 6. Download Yarn at: https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable.
 Click enter for any warnings pop up. 
 
