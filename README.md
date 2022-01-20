@@ -23,10 +23,12 @@ Click enter for any warnings pop up.
 Step 2: Start the application: 
 1. Open Gemfile in the folder. You can see on line 4, there is a line "ruby '3.0.2'". Please change 3.0.2 to your downloaded version of Ruby (on Step 1.2)
 2. On the Command Prompt, write
-bundle install
-3. Now, you're all set. Run the application by writing on the Command Prompt: 
-rails s
-4. Wait for the application to run. Then, open your web browser, go to this address:
+"bundle install"
+3. To make sure, you can load the data. Write on the Command Prompt: 
+rails db:migrate
+4. Now, you're all set. Run the application by writing on the Command Prompt: 
+"rails s"
+5. Wait for the application to run. Then, open your web browser, go to this address:
 http://localhost:3000/
 
 Also, you can check out my demo video here: https://bit.ly/3fHgrOY
